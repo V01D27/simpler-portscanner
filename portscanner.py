@@ -8,9 +8,9 @@ def istoffen(ip,port):
       print("port", ran,"Offen")
    except:
       print("port", ran,"Zu")
-#ip und port von User
+   
+#ip 
 ip = input("Ip: ")
-
 #für die for schleife
 von = (int(input("Von: ")))
 bis = (int(input("Bis: ")))
